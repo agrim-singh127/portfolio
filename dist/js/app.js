@@ -197,8 +197,8 @@ backToTopBtn.on("click", function (e) {
     arrows = document.querySelectorAll(".education .arrows .arrow"),
     arrowPrev = document.querySelector(".education .arrows .arrow__prev"),
     arrowNext = document.querySelector(".education .arrows .arrow__next"),
-    xScrolling = 142.5,
-    maxTranslateX = -570, // Limit scrolling to 4 steps
+    xScrolling = 242.5,
+    maxTranslateX = -750,
     disabledClass = "disabled";
 
   let currentTranslateX = 0;
